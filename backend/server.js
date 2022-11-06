@@ -22,11 +22,11 @@ app.use('/api/tickets', ticketRoutes);
 
 // Serve Frontend
 if (process.env.NODE_ENV === 'production') {
-  // Set build folder as static
-  app.use(express.static(path.join(__dirname, '../frontend/build')));
+  // Set public folder as static
+  app.use(express.static(path.join(__dirname, '../frontend/public')));
 
   app.get('*', (req, res) =>
-    res.sendFile(path.join(__dirname, '../frontend/build/index.html'))
+    res.sendFile(path.join(__dirname, '../frontend/public/index.html'))
   );
 } else {
   app.get('/', (req, res) => {
