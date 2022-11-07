@@ -25,7 +25,7 @@ When creating an account (and logging in), I added a validation process and the 
 
 ## Features
 
-- Registration with validation and saving to the database (real registration with email confirmation, etc., it is possible that it will be added in the future, at the moment I preferred to focus on other aspects of the application)
+- Registration with validation and saving user to the database (real registration with email confirmation, etc., it is possible that it will be added in the future, at the moment I preferred to focus on other aspects of the application)
 - Password hashing using bcrypt.js
 - Logging in using JWT (expiration time included) and saving to localStorage
 - Logging out with deletion of data from localStorage
