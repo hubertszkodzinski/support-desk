@@ -1,7 +1,7 @@
 
 # Support Desk
 
-Support Desk is a MERN stack project which i created with the thought of learning React.js, Redux (used Redux Toolkit) and combining it with the backend side of the application written with Express.js and MongoDB as database.
+Support Desk is a MERN stack project which I created with the thought of learning React.js, Redux (used Redux Toolkit) and combining it with the backend side of the application written with Express.js and MongoDB as database.
 
 The application allows the user to registration (registration without the need to confirm the e-mail, more about it in "Features") and login. After logging in, the user has the option to add tickets about the broken devices. After adding a ticket, it can also add notes to a specific ticket to better communicate with the alleged technical support.
 
