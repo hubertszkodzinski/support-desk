@@ -3,7 +3,7 @@
 
 Support Desk is a MERN stack project designed to learn React.js, Redux (used Redux Toolkit) and combine this with a backend side of the application written using Express.js and MongoDB as the database.
 
-The app allows the user to register (registration without having to confirm an e-mail, more about this in the "Features" tab) and log in. Once logged in, the user can add tickets regarding broken devices. After adding a ticket, one can also add notes to a specific ticket to better communicate with the supposed technical support.
+The app allows the user to register (registration without having to confirm an email, more about this in the "Features" tab) and log in. Once logged in, the user can add tickets regarding broken devices. After adding a ticket, one can also add notes to a specific ticket to better communicate with the supposed technical support.
 
 When creating an account (and logging in), I added a validation process. Also The account is added to the database (password is hashed using bcrypt.js and then saved to the database) - not only is the account added to the database, but also tickets etc. I also used a JWT with a specific expiry time and localStorage to handle the login.
 
