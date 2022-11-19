@@ -1,17 +1,17 @@
 
 # Support Desk
 
-Support Desk is a MERN stack project which I created with the thought of learning React.js, Redux (used Redux Toolkit) and combining it with the backend side of the application written with Express.js and MongoDB as database.
+Support Desk is a MERN stack project designed to learn React.js, Redux (used Redux Toolkit) and combine this with a backend side of the application written using Express.js and MongoDB as the database.
 
-The application allows the user to registration (registration without the need to confirm the e-mail, more about it in "Features") and login. After logging in, the user has the option to add tickets about the broken devices. After adding a ticket, it can also add notes to a specific ticket to better communicate with the alleged technical support.
+The app allows the user to registr (registration without having to confirm an e-mail, more about this in the "Features" tab) and log in. Once logged in, the user can add tickets regarding broken devices. After adding a ticket, one can also add notes to a specific ticket to better communicate with the supposed technical support.
 
-When creating an account (and logging in), I added a validation process and the account is added to the database (password is hashed using bcrypt.js and then saved to the database). Of course, not only the account is added to database but also tickets etc. I used also a JWT with a specific expiry time and localStorage to handle the login.
+When creating an account (and logging in), I added a validation process. Also The account is added to the database (password is hashed using bcrypt.js and then saved to the database) - not only is the account added to the database, but also tickets etc. I also used a JWT with a specific expiry time and localStorage to handle the login.
 
 ## Live
 
 <p>Will be added in the future!</p>
 <p>Moving from Heroku to another hosting website...</p>
-<p>Check the screenshots for now.</p>
+<p>Screenshots as a preview.</p>
 
 ## Tech Stack
 
@@ -25,17 +25,17 @@ When creating an account (and logging in), I added a validation process and the 
 
 ## Features
 
-- Registration with validation and saving user to the database (real registration with email confirmation, etc., it is possible that it will be added in the future, at the moment I preferred to focus on other aspects of the application)
+- Registration with validation and saving user to the database (real registration with email confirmation, etc., is possible to be added in the future, at the moment I preferred to focus on other aspects of the application)
 - Password hashing using bcrypt.js
-- Logging in using JWT (expiration time included) and saving to localStorage
-- Logging out with deletion of data from localStorage
+- Logging in using JWT (including expiry time) and saving to localStorage
+- Logout with deletion of data from localStorage
 - Protected routes for the backend api
 - Protected routes for the frontend side of the application
 - Validation and creation of tickets and saving to the database for a specific user
 - Modification and deletion of tickets by specific user (in progress to implement for frontend, backend api written)
-- The possibility of closing tickets completely (e.g. due to resolving the case)
-- Displaying tickets only for the user who created them
-- Adding notes using modal and saving them to the database
+- The possibility of closing tickets completely (e.g. due to case resolution)
+- Display of tickets only for the user who created them
+- Adding notes via modal and saving them to the database
 
 ## Screenshots
 
