@@ -122,8 +122,3 @@ When creating an account (and logging in), I added a validation process. Also Th
     ├── package-lock.json
     └── package.json
 ```
-
-[I created this project as part of the Brad Traversy course on Udemy - React Front To Back 2022](https://www.udemy.com/course/react-front-to-back-2022/)
-<br>
-[Brad's account on GitHub](https://github.com/bradtraversy)
-
