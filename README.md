@@ -15,7 +15,7 @@ When creating an account (and logging in), I added a validation process. Also ac
 
 - Registration with validation and saving user to the database (real registration with email confirmation, etc., is possible to be added in the future, at the moment I preferred to focus on other aspects of the application)
 - Password hashing using bcrypt.js
-- Logging in using JWT (including expiry time) and saving to localStorage
+- Logging with JWT (including expiry time) and saving to localStorage
 - Logout with deletion of data from localStorage
 - Protected routes for the backend api
 - Protected routes for the frontend side of the application
